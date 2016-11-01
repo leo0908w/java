@@ -5,11 +5,15 @@ package tw.org.iii.javatest;
  */
 public class Will10 {
     public static void main(String[] args) {
-        for (int i = 1; i < 10; i++) {
-            for (int j = 2; j < 6; j++) {
-                System.out.print( j + " x " + i + " = " + j * i + "\t");
+        for (int k = 0; k < 2; k++) {
+            for (int i = 1; i < 10; i++) {
+                for (int j = 2; j < 6; j++) {
+                    int newj = j + k * 4;
+                    System.out.print(newj + " x " + i + " = " + j * i + "\t");
+                }
+                System.out.println();
             }
-        System.out.println();
+        System.out.println("-------------------------------------------");
         }
     }
 }

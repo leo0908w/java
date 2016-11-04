@@ -1,5 +1,5 @@
 package tw.org.iii.javatest;
-public class hw01 {
+public class hw01_hw_ok {
     public static void main(String[] args) {
         int temp = 0;
         for (int i=2; i<100; i++) {

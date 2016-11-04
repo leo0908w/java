@@ -1,5 +1,5 @@
 package tw.org.iii.javatest;
-public class Date {
+public class Date_hw {
     public static void main (String[] args) {
         int year = 2016;
         int month = 11;

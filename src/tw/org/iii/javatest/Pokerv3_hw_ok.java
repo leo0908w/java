@@ -1,5 +1,5 @@
 package tw.org.iii.javatest;
-public class Pokerv3 {
+public class Pokerv3_hw_ok {
     public static void main(String[] args) {
         int[] poker = new int[52];
         int temp;

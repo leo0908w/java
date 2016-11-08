@@ -22,7 +22,9 @@ public class Will36 {
     }
 }
 class Student implements Serializable {
-    int ch, math, eng;
+    int ch;
+    transient int math;
+    int eng;
     String name;
     Student(String name, int ch, int math, int eng) {
         this.name = name;

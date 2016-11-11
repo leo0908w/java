@@ -11,7 +11,7 @@ public class Will45 {
             URL url = new URL("");
             HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
             urlConnection.connect();
-            urlConnection.getInputStream();
+            urlConnection.getInputStream();;
         } catch (Exception e) {
             e.printStackTrace();
         }
